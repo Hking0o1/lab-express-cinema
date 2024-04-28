@@ -1,0 +1,22 @@
+<h1>Movies</h1>
+
+<div class="movies">
+  {{#each movies}}
+  <div class="card">
+  <div class="image"><img src="{{image}}" alt="{{title}}"/></div>
+    <div class="content">
+      <a href="#">
+        <span class="title">
+          {{title}}
+        </span>
+      </a>
+      <a class="action" href="/movies/{{_id}}">
+        Find out more
+        <span aria-hidden="true">
+          →
+        </span>
+      </a>
+    </div>
+  </div>
+  {{/each}} 
+</div>

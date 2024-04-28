@@ -1,0 +1,31 @@
+<div class="card-details">
+ <div class="image"><img src="{{movie.image}}" /></div>
+  <div class="content-details">
+    <a href="/movies">
+      <span class="title">
+        {{movie.title}}
+      </span>
+    </a>
+    <p class="desc">
+      <b>Director :</b>{{movie.director}}
+    </p>
+    <p class="desc">
+        <b>Movie Stars :</b>{{movie.stars}}
+    </p>
+    <p class="desc">
+        <b>Description :</b>
+      {{movie.description}}
+    </p>
+    <p class="desc">
+      <b>Show Times :</b>
+      {{movie.showtimes}}
+    </p>
+
+    <a class="action button-details" href="/movies">
+      Back
+      <span aria-hidden="true">
+        →
+      </span>
+    </a>
+  </div>
+</div>
